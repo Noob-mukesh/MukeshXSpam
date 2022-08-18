@@ -9,16 +9,16 @@ from MukeshxSpam import CMD_HNDLR as hl
 from telethon import utils
 from resources.data import LOVESPAM
 
-@Mlk.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)%" hl))
-@Mlk2.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)%" hl))
-@Mlk3.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)%" hl))
-@Mlk4.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)%" hl))
-@Mlk5.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)%" hl))
-@Mlk6.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)%" hl))
-@Mlk7.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)%" hl))
-@Mlk8.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)%" hl))
-@Mlk9.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)%" hl))
-@Mlk10.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)%" hl))
+@Mlk.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
+@Mlk2.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
+@Mlk3.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
+@Mlk4.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
+@Mlk5.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
+@Mlk6.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
+@Mlk7.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
+@Mlk8.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
+@Mlk9.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
+@Mlk10.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
 async def lovespam(e):
     if e.sender_id in SUDO_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
