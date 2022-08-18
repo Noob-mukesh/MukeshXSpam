@@ -1,7 +1,7 @@
 import asyncio
 import random
 import os
-from telethon import events
+from telethon import filters, Message
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 from MukeshxSpam import Mlk, Mlk2, Mlk3, Mlk4, Mlk5 , Mlk6, Mlk7, Mlk8, Mlk9, Mlk10, SUDO_USERS
@@ -9,16 +9,16 @@ from MukeshxSpam import CMD_HNDLR as hl
 from telethon import utils
 from resources.data import LOVESPAM
 
-@Mlk.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
-@Mlk2.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
-@Mlk3.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
-@Mlk4.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
-@Mlk5.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
-@Mlk6.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
-@Mlk7.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
-@Mlk8.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
-@Mlk9.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
-@Mlk10.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)"%hl))
+@Mlk.on_message(filters.command(lovespam))
+@Mlk2.on_message(filters.command(lovespam))
+@Mlk3.on_message(filters.command(lovespam))
+@Mlk4.on_message(filters.command(lovespam))
+@Mlk5.on_message(filters.command(lovespam))
+@Mlk6.on_message(filters.command(lovespam))
+@Mlk7.on_message(filters.command(lovespam))
+@Mlk8.on_message(filters.command(lovespam))
+@Mlk9.on_message(filters.command(lovespam))
+@Mlk10.on_message(filters.command(lovespam))
 async def lovespam(e):
     if e.sender_id in SUDO_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
