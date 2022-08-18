@@ -219,6 +219,8 @@ async def hang(e):
                 await asyncio.wait([e.respond(hang, reply_to=e.reply_to_msg_id) for i in range(counter)])
         else:
             await e.reply(usage)
+
+
 @Mlk.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)" % hl))
 @Mlk2.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)" % hl))
 @Mlk3.on(events.NewMessage(incoming=True, pattern=r"\%lovespam(?: |$)(.*)" % hl))
