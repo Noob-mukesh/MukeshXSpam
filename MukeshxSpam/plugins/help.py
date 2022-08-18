@@ -241,4 +241,30 @@ async def help_extra(event):
                 "ɴᴏᴏʙ  !! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴍᴜᴋᴇsʜ X sᴘᴀᴍ ʙᴏᴛs !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
+@Mlk.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk2.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk3.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk4.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk5.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk6.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk7.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk8.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk9.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk10.on(events.CallbackQuery(pattern=r"lovespam"))
+async def help_lovespam(event):
+   if event.query.user_id in SUDO_USERS:
+        await event.edit(
+            lovespam_msg,
+            buttons=[
+            [
+            Button.inline("< Back", data="help_back"),                        
+            ],
+            ],
+            )
+   else:
+        Alert = (
+                "ɴᴏᴏʙ  !! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴍᴜᴋᴇsʜ X sᴘᴀᴍ ʙᴏᴛs !!"
+            )
+        await event.answer(Alert, cache_time=0, alert=True)
+
 
