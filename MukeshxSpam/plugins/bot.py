@@ -15,7 +15,7 @@ from datetime import datetime
 MLK_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/558fac9d590fa4cdd7a52.jpg"
   
 
-mukesh = "✯ᴍᴜᴋᴇsʜxsᴘᴀᴍ ʜᴇʀᴇ✯\n\n"
+mukesh = "✯ᴍᴜᴋᴇsʜ x sᴘᴀᴍ ʜᴇʀᴇ✯\n\n"
 mukesh += f"═══════════════════\n"
 mukesh += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 mukesh += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
