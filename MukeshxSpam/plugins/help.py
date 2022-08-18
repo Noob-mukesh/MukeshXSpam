@@ -5,7 +5,7 @@ from time import time
 from datetime import datetime
 from MukeshxSpam import CMD_HNDLR as hl
     
-HELP_PIC = "https://telegra.ph/file/aafe899afdbd00314a561.jpg"
+HELP_PIC = "https://te.legra.ph/file/a9a73fc9aafcf47a79412.jpg"
 
 Mlk_Help = "__ᴄʟɪᴄᴋ  ᴏɴ  ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴs  ғᴏʀ ʜᴇʟᴘ__"
 
@@ -27,14 +27,14 @@ async def help(event):
                                   caption=Mlk_Help,
                                   buttons=[
            [
-            Button.inline("• Spam •", data="spam"),
-            Button.inline("• Raid •", data="raid"),
+            Button.inline("• sᴘᴀᴍ •", data="spam"),
+            Button.inline("• ʀᴀɪᴅ •", data="raid"),
            ],
            [
-            Button.inline("• Extra •", data="extra"),
+            Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukhushi_official")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukeshbotzone")
            ],
            ],
            )              
@@ -44,7 +44,7 @@ async def help(event):
 extra_msg = f"""
 **ʜᴇʟᴘ  ᴇxᴛʀᴀ  ᴄᴍᴅs**
 
-**Userbot**: Userbot Cmds
+**Userbot**: ᴜsᴇʀʙᴏᴛ ᴄᴍᴅs
 command:
 i) {hl}ping 
 ii) {hl}alive
@@ -69,7 +69,7 @@ i) {hl}packspam (replying to any sticker)
 
                  
 raid_msg = f"""
-**Help Raid Cmds**
+**ʜᴇʟᴘ ʀᴀɪᴅ ᴄᴍᴅs **
 
 
 **raid:** Activates raid on any individual user for given range.
@@ -93,11 +93,11 @@ i) {hl}dreplyraid <replying to user>
 ii) {hl}dreplyraid <username>
 
 
-**© @itz_mst_boy**
+**© @itz_mst_boi**
 """
 
 spam_msg = f"""
-**Help Spam Cmds**
+**ʜᴇʟᴘ sᴘᴀᴍ ᴄᴍᴅs**
 
 **spam**: sᴘᴀᴍs  ᴀ  ᴍᴇssᴀɢᴇ ғᴏʀ ɢɪᴠᴇɴ  ᴄᴏᴜɴᴛᴇʀ(<= 100).
 command:
@@ -122,7 +122,7 @@ i) {hl}pornspam <count>
 command:
 i) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
-** © @itz_mst_boy**
+** © @itz_mst_boi**
 """                     
            
            
@@ -142,20 +142,20 @@ async def helpback(event):
             Mlk_Help,
             buttons=[
                 [
-            Button.inline("Spam", data="spam"),
-            Button.inline("Raid", data="raid"),
+            Button.inline("sᴘᴀᴍ", data="spam"),
+            Button.inline("ʀᴀɪᴅ", data="raid"),
            ],
            [
-            Button.inline("Extra cmds", data="extra"),
+            Button.inline("ᴇxᴛʀᴀ ᴄᴍᴅs ", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukhushi_official")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukeshbotzone")
            ],
            ],
         )           
    else:
         Alert = (
-                "ɴᴏᴏʙ !! ᴍᴀᴋᴇ  ʏᴏᴜʀ   ᴏᴡɴ ᴍᴜᴋᴇsʜ X sᴘᴀᴍ  ʙᴏᴛs  ᴄᴏɴᴛᴀᴄᴛ ғᴏʀ ʀᴇᴘᴏ @itz_mst_boy !!"
+                "ɴᴏᴏʙ !! ᴍᴀᴋᴇ  ʏᴏᴜʀ   ᴏᴡɴ ᴍᴜᴋᴇsʜ X sᴘᴀᴍ  ʙᴏᴛs  ᴄᴏɴᴛᴀᴄᴛ ғᴏʀ ʀᴇᴘᴏ @itz_mst_boi !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -177,7 +177,7 @@ async def help_spam(event):
             spam_msg,
             buttons=[
                 [
-            Button.inline("< Back", data="help_back"),
+            Button.inline("< ʙᴀᴄᴋ ", data="help_back"),
             ],
             ],
             ) 
@@ -204,7 +204,7 @@ async def help_raid(event):
             raid_msg,
             buttons=[
             [
-            Button.inline("< Back", data="help_back"),
+            Button.inline("< ʙᴀᴄᴋ ", data="help_back"),
             ],
             ],
             )  
@@ -232,7 +232,7 @@ async def help_extra(event):
             extra_msg,
             buttons=[
             [
-            Button.inline("< Back", data="help_back"),                        
+            Button.inline("< ʙᴀᴄᴋ ", data="help_back"),                        
             ],
             ],
             )
