@@ -24,7 +24,7 @@ from MukeshxSpam import CMD_HNDLR as hl
 from telethon.tl.functions.messages import GetStickerSetRequest
 from telethon.tl.types import InputStickerSetID, InputStickerSetShortName
 from telethon import utils
-from resources.data import GROUP, PORMS
+from resources.data import GROUP, PORMS, loveSpam
 
 
 
