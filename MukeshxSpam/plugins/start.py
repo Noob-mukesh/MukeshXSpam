@@ -7,11 +7,11 @@ from .. import Mlk, Mlk2, Mlk3, Mlk4, Mlk5, Mlk6, Mlk7, Mlk8, Mlk9, Mlk10, ALIVE
 from MukeshxSpam.plugins.help import *
 
 
-MLK_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/aafe899afdbd00314a561.jpg"
+MLK_IMG = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/a9a73fc9aafcf47a79412.jpg"
 
 Mlk_Button = [
         [
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/worldwide_friend_zone")
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/the_support_chat")
         ],
         [
         Button.inline("• ᴄᴍᴅs •", data="help_back")
@@ -21,10 +21,10 @@ Mlk_Button = [
 MlkX_Button = [
         [
         Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mr_sukkun"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/worldwide_friend_zone")
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/the_support_chat")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Itz-mst-boy/Spambotfather")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Noob-Mukesh/MukeshxSpam")
         ]
         ]
         
