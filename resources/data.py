@@ -363,7 +363,7 @@ PORMS = [
         "https://telegra.ph/file/af9e3f98da0bd937adf6e.jpg",
 ]
 
-loveSpam = [
+LOVESPAM = [
      
     "JAANU I LOVE U NA🥺",
     "TU HI HAIN MERI JAAN KISI AUKAT NAI HAIN JO HUMARE BICH ME AAYE🥺😏",
