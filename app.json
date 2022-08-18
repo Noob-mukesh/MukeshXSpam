@@ -1,0 +1,120 @@
+{
+    "name": "ᴍᴜᴋᴇsʜ x sᴘᴀᴍ ʙᴏᴛ",
+    "description": "ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ sᴛᴀʙʟᴇ sᴘᴀᴍʙᴏᴛ ᴏɴ ᴛɢ ",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "MukeshxSpam",
+        "SpamBots"
+    ],
+    "repository": "https://t.me/itz_mst_boi",
+    "website": "https://t.me/mukeshbotzone",
+    "success_url": "https://t.me/the_support_chat",
+    "env": {
+             "API_ID": {
+        "description": "ғɪʟʟ ᴀᴘɪ ɪᴅ ᴛᴀᴋᴇ  ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ My.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "ALIVE_PIC": {
+        "description": "ʏᴏᴜʀ  ᴀʟɪᴠᴇ  ᴘɪᴄ ᴏʀ  ᴠɪᴅᴇᴏ  ɪғ ᴜ ʀ ɴᴏᴏʙ ʟᴇᴀᴠᴇ ᴀs ɪᴛ ɪs",
+        "value": "https://telegra.ph/file/7fa9017265d3d6f51d191.jpg",
+        "required": false
+      },
+      "API_HASH": {
+        "description": "ғɪʟʟ  ᴀᴘɪ  ʜᴀsʜ ᴛᴀᴋᴇ  ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ  My.telegram.org",
+        "value": "",
+        "required": true
+      },
+     "CMD_HNDLR": {
+            "description": "ᴄᴜsᴛᴏᴍ  ᴄᴏᴍᴍᴀɴᴅ  ʜᴀɴᴅʟᴇʀ  ʟᴇᴀᴠᴇ ᴀs ɪᴛ ɪs ɪғ ᴜ ʀ ɴᴏᴏʙ.",
+            "value": "!",
+            "required": false
+        },
+      "BOT_TOKEN": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN2": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN3": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN4": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN5": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN6": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN7": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN8": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN9": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN10": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
+        "value": "",
+        "required": true
+      },
+       "SUDO_USER": {
+            "description": "sᴜᴅᴏ ᴜsᴇʀs ɪᴅ sᴘᴀᴄᴇ ʙʏ sᴘᴀᴄᴇ ɪғ ᴜʀ ɴᴏᴏʙ ʟᴇᴀᴠᴇ ᴀs ɪᴛ ɪs",
+            "value": "5207640479",
+            "required": false
+        },
+      "OWNER_ID": {
+            "description": "ᴏᴡɴᴇʀ ɪᴅ  ɢᴇᴛ ɪᴛ ғʀᴏᴍ @groupcontrollertgbot",
+            "value": "",
+            "required": true
+        },
+        "HEROKU_API_KEY": {
+            "description": " ᴇɴᴛᴇʀ ʏᴏᴜʀ ʜᴇʀᴜᴋᴏ ᴀᴘɪ ᴋᴇʏ ᴛᴏ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ʙᴏᴛ",
+            "value": "",
+            "required": false 
+        },
+        "HEROKU_APP_NAME": {
+            "description": "ʏᴏᴜʀ  ᴀᴘᴘ  ɴᴀᴍᴇ ᴛᴏ ᴜᴘᴅᴀᴛᴇ  ʏᴏᴜʀ  ʙᴏᴛ",
+          "value": "",
+          "required": false  
+        }
+    },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}

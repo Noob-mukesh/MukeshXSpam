@@ -1,0 +1,5 @@
+build:
+  docker:
+    Mlk: Dockerfile
+run:
+  Mlk: python3 -m MukeshxSpam
