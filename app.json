@@ -41,47 +41,47 @@
       "BOT_TOKEN2": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN3": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN4": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN5": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN6": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN7": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN8": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN9": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN10": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ  ʙᴏᴛ  ᴛᴏᴋᴇɴ ɢᴇᴛ  ᴛʜɪs  ᴠᴀʟᴜᴇ ғʀᴏᴍ https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
        "SUDO_USER": {
             "description": "sᴜᴅᴏ ᴜsᴇʀs ɪᴅ sᴘᴀᴄᴇ ʙʏ sᴘᴀᴄᴇ ɪғ ᴜʀ ɴᴏᴏʙ ʟᴇᴀᴠᴇ ᴀs ɪᴛ ɪs",
@@ -90,7 +90,7 @@
         },
       "OWNER_ID": {
             "description": "ᴏᴡɴᴇʀ ɪᴅ  ɢᴇᴛ ɪᴛ ғʀᴏᴍ @groupcontrollertgbot",
-            "value": "",
+            "value": "5207640479",
             "required": true
         },
         "HEROKU_API_KEY": {
