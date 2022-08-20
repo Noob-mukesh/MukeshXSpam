@@ -71,7 +71,7 @@ love_msg = f"""
 **ʟᴏᴠᴇ ʀᴀɪᴅ ᴄᴍᴅs **
 **ʟᴏᴠᴇʀᴀɪᴅ:** ʟᴏᴠᴇᴇᴀɪᴅ ᴏɴ ᴀɴʏ ɪɴsɪᴠɪᴅᴜᴀʟ ғᴏᴇ ᴀ ɢɪᴠᴇɴ ʀᴀɴɢᴇ.
 command:
-i) {h1}loveraid <Count> username
+i) {hl}loveraid <Count> username
 """
 
                  
