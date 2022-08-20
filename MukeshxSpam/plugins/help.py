@@ -5,9 +5,9 @@ from time import time
 from datetime import datetime
 from MukeshxSpam import CMD_HNDLR as hl
     
-HELP_PIC = "https://github.com/Noob-mukesh/MukeshXSpam/blob/main/resources/20220820_2130221.gif"
+HELP_PIC = "https://te.legra.ph/file/a9a73fc9aafcf47a79412.jpg"
 
-Mlk_Help = "__ᴄʟɪᴄᴋ  ᴏɴ  ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴs  ғᴏʀ ʜᴇʟᴘ ʙᴀʙʏ __"
+Mlk_Help = "__ᴄʟɪᴄᴋ  ᴏɴ  ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴs  ғᴏʀ ʜᴇʟᴘ__"
 
 
 @Mlk.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -34,10 +34,7 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukeshbotzone"),
-           ],
-           [
-            Button.url("⍟ sᴜᴘᴘᴏʀᴛ ⍟", "https://t.me/the_support_chat")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukeshbotzone")
            ],
            ],
            )              
@@ -217,31 +214,7 @@ async def help_raid(event):
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
-@Mlk.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
-@Mlk2.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
-@Mlk3.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
-@Mlk4.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
-@Mlk5.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
-@Mlk6.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
-@Mlk7.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
-@Mlk8.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
-@Mlk9.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
-@Mlk10.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
-async def help_extra(event):
-   if event.query.user_id in SUDO_USERS:
-        await event.edit(
-            extra_msg,
-            buttons=[
-            [
-            Button.inline("< ʙᴀᴄᴋ ", data="help_back"),                        
-            ],
-            ],
-            )
-   else:
-        Alert = (
-                "ɴᴏᴏʙ  !! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴍᴜᴋᴇsʜ X sᴘᴀᴍ ʙᴏᴛs !!"
-            )
-        await event.answer(Alert, cache_time=0, alert=True)
+
 
 @Mlk.on(events.CallbackQuery(pattern=r"extra"))
 @Mlk2.on(events.CallbackQuery(pattern=r"extra"))
@@ -260,6 +233,31 @@ async def help_extra(event):
             buttons=[
             [
             Button.inline("< ʙᴀᴄᴋ ", data="help_back"),                        
+            ],
+            ],
+            )
+   else:
+        Alert = (
+                "ɴᴏᴏʙ  !! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴍᴜᴋᴇsʜ X sᴘᴀᴍ ʙᴏᴛs !!"
+            )
+        await event.answer(Alert, cache_time=0, alert=True)
+@Mlk.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk2.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk3.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk4.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk5.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk6.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk7.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk8.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk9.on(events.CallbackQuery(pattern=r"lovespam"))
+@Mlk10.on(events.CallbackQuery(pattern=r"lovespam"))
+async def help_lovespam(event):
+   if event.query.user_id in SUDO_USERS:
+        await event.edit(
+            lovespam_msg,
+            buttons=[
+            [
+            Button.inline("< Back", data="help_back"),                        
             ],
             ],
             )
