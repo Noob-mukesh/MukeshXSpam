@@ -214,7 +214,31 @@ async def help_raid(event):
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
-
+@Mlk.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
+@Mlk2.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
+@Mlk3.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
+@Mlk4.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
+@Mlk5.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
+@Mlk6.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
+@Mlk7.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
+@Mlk8.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
+@Mlk9.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
+@Mlk10.on(events.NewMessage(incoming=True, pattern=r"\%slovereplyraid(?: |$)(.*)" % hl))
+async def help_extra(event):
+   if event.query.user_id in SUDO_USERS:
+        await event.edit(
+            extra_msg,
+            buttons=[
+            [
+            Button.inline("< ʙᴀᴄᴋ ", data="help_back"),                        
+            ],
+            ],
+            )
+   else:
+        Alert = (
+                "ɴᴏᴏʙ  !! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴍᴜᴋᴇsʜ X sᴘᴀᴍ ʙᴏᴛs !!"
+            )
+        await event.answer(Alert, cache_time=0, alert=True)
 
 @Mlk.on(events.CallbackQuery(pattern=r"extra"))
 @Mlk2.on(events.CallbackQuery(pattern=r"extra"))
