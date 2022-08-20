@@ -34,7 +34,7 @@ async def help(event):
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukeshbotzone")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukeshbotzone"),
            ],
            [
             Button.url("⍟ sᴜᴘᴘᴏʀᴛ ⍟", "https://t.me/the_support_chat")
