@@ -5,9 +5,9 @@ from time import time
 from datetime import datetime
 from MukeshxSpam import CMD_HNDLR as hl
     
-HELP_PIC = "https://te.legra.ph/file/a9a73fc9aafcf47a79412.jpg"
+HELP_PIC = "https://github.com/Noob-mukesh/MukeshXSpam/blob/main/resources/20220820_2130221.gif"
 
-Mlk_Help = "__ᴄʟɪᴄᴋ  ᴏɴ  ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴs  ғᴏʀ ʜᴇʟᴘ__"
+Mlk_Help = "__ᴄʟɪᴄᴋ  ᴏɴ  ʙᴇʟᴏᴡ  ʙᴜᴛᴛᴏɴs  ғᴏʀ ʜᴇʟᴘ ʙᴀʙʏ __"
 
 
 @Mlk.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -32,10 +32,12 @@ async def help(event):
            ],
            [
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
-            Button.inline("ʟᴏᴠᴇ", data="love"),
            ],
            [    
             Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukeshbotzone")
+           ],
+           [
+            Button.url("⍟ sᴜᴘᴘᴏʀᴛ ⍟", "https://t.me/the_support_chat")
            ],
            ],
            )              
@@ -66,12 +68,6 @@ ii) {hl}leave : ᴛʏᴘᴇ ɪɴ ᴛʜᴇ  ɢʀᴏᴜᴘ ʙᴏᴛ ᴡɪʟʟ  ᴀ
 i) {hl}packspam (replying to any sticker)
 
 **© @itz_mst_boi**
-"""
-love_msg = f"""
-**ʟᴏᴠᴇ ʀᴀɪᴅ ᴄᴍᴅs **
-**ʟᴏᴠᴇʀᴀɪᴅ:** ʟᴏᴠᴇᴇᴀɪᴅ ᴏɴ ᴀɴʏ ɪɴsɪᴠɪᴅᴜᴀʟ ғᴏᴇ ᴀ ɢɪᴠᴇɴ ʀᴀɴɢᴇ.
-command:
-i) {hl}loveraid <Count> username
 """
 
                  
