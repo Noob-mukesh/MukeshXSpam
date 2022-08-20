@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./resources/logo.jpg" alt="BOT-SPAM Logo">
+  <img src="./resources/20220820_2130221.gif" alt="ʙᴏᴛ-sᴘᴀᴍ-ʟᴏɢᴏ">
 </p>
 <h1 align="center">
   <b>ᴍᴜᴋᴇsʜ X ʙᴏᴛ sᴘᴀᴍ</b>
@@ -11,12 +11,12 @@
 ----
  
 - [x] ☯︎ ғᴀsᴛ ᴀɴᴅ sᴛᴀʙʟᴇ ☯︎
-- [x] Deploy 10 Bots in One time 🔥
-- [x] Deploy Using Bot Token 
+- [x] ᴅᴇᴘʟᴏʏ 10ʙᴏᴛs ɪɴ ᴏɴᴇ ᴛɪᴍᴇ🔥
+- [x] ᴅᴇᴘʟᴏʏ ᴜsɪɴɢ ʙᴏᴛ ᴛᴏᴋᴇɴ
 
-# Deploy on heroku
+# ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴜᴋᴏ
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Noob-Mukesh/MukeshXSpam)
+[![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Noob-Mukesh/MukeshXSpam)
 
 
 # sᴜᴘᴘᴏʀᴛ & ᴜᴘᴅᴀᴛᴇ
