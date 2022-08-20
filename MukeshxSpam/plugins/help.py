@@ -32,6 +32,7 @@ async def help(event):
            ],
            [
             Button.inline("• ᴇxᴛʀᴀ •", data="extra"),
+            Button.inline("ʟᴏᴠᴇ", data="love"),
            ],
            [    
             Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/mukeshbotzone")
@@ -65,6 +66,12 @@ ii) {hl}leave : ᴛʏᴘᴇ ɪɴ ᴛʜᴇ  ɢʀᴏᴜᴘ ʙᴏᴛ ᴡɪʟʟ  ᴀ
 i) {hl}packspam (replying to any sticker)
 
 **© @itz_mst_boi**
+"""
+love_msg = f"""
+**ʟᴏᴠᴇ ʀᴀɪᴅ ᴄᴍᴅs **
+**ʟᴏᴠᴇʀᴀɪᴅ:** ʟᴏᴠᴇᴇᴀɪᴅ ᴏɴ ᴀɴʏ ɪɴsɪᴠɪᴅᴜᴀʟ ғᴏᴇ ᴀ ɢɪᴠᴇɴ ʀᴀɴɢᴇ.
+ᴄᴍᴅs:
+i) {h1}Lovraid <Count> username
 """
 
                  
