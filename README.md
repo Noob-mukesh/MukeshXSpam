@@ -6,7 +6,7 @@
 </h1>
 
 [![ғᴏʀᴋ](https://img.shields.io/github/forks/Noob-Mukesh/MukeshXSpam?style=flat-square&color=orange)](https://github.com/Noob-Mukesh/MukeshxSpam/fork)
-[![ᴘʏᴛʜᴏɴ](https://img.shields.io/badge/Python-v3.9.7-blue)](https://www.python.org/)
+[![ᴘʏᴛʜᴏɴ](https://img.shields.io/badge/Python-v3.9.8-blue)](https://www.python.org/)
 [![ᴏᴘᴇɴ sᴏᴜʀᴄᴇ](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Noob-Mukesh/MukeshxSpam)   
 ----
  
