@@ -70,8 +70,8 @@ i) {hl}packspam (replying to any sticker)
 love_msg = f"""
 **ʟᴏᴠᴇ ʀᴀɪᴅ ᴄᴍᴅs **
 **ʟᴏᴠᴇʀᴀɪᴅ:** ʟᴏᴠᴇᴇᴀɪᴅ ᴏɴ ᴀɴʏ ɪɴsɪᴠɪᴅᴜᴀʟ ғᴏᴇ ᴀ ɢɪᴠᴇɴ ʀᴀɴɢᴇ.
-ᴄᴍᴅs:
-i) {h1}Lovraid <Count> username
+command:
+i) {h1}loveraid <Count> username
 """
 
                  
