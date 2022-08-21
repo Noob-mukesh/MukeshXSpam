@@ -60,5 +60,5 @@ i) !packspam (replying to any sticker)
 * [sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ](https://t.me/the_support_chat)
  
 # ᴄʀᴇᴅɪᴛ 
-* [ʀɪᴢᴏᴇʟ](https://t.me/MrRizoel)
+* [ʀɪᴢᴏᴇʟ](https://t.me/TheRiZoeL)
 * [ᴍᴜᴋᴇsʜ](https://telegram.dog/itz_mst_boi)
