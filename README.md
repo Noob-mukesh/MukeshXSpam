@@ -17,55 +17,16 @@
 # ғᴇᴀᴛᴜʀᴇs
 ʜᴇʟᴘ sᴘᴀᴍ ᴄᴍᴅs
 
-spam: sᴘᴀᴍs  ᴀ  ᴍᴇssᴀɢᴇ ғᴏʀ ɢɪᴠᴇɴ  ᴄᴏᴜɴᴛᴇʀ(<= 100).
-command:
-i) !spam <count> <message to spam> (you can reply any message if you want bot to reply that message and do spamming)
-ii) !spam <count> <replying any message>
 
-bigspam: sᴘᴀᴍs ᴀ  ᴍᴇssᴀɢᴇ ғᴏʀ  ɢɪᴠᴇɴ ᴄᴏᴜɴᴛᴇʀ.
-command:
-i) !bigspam <count> <message to spam> (you can reply any message if you want bot to reply that message and do spamming)
-ii) !bigspam <count> <replying any message>
+i) !spam
+ii) !bigspam
+iii) !pornspam 
+iv) !hang
 
-delayspam: ᴅᴇʟᴀʏ  sᴘᴀᴍ ᴀ ᴛᴇxᴛ ғᴏʀ  ɢɪᴠᴇɴ  ᴄᴏᴜɴᴛᴇʀ ᴀғᴛᴇʀ ɢɪᴠᴇɴ ᴛɪᴍᴇ.
-command:
-i) !delayspam <delay> <count> <message to spam> (you can reply any message if you want bot to reply that message and do spamming)
-ii) !delayspam <delay> <count> <replying any message>
-
-pornspam: ᴘᴏʀɴᴏɢʀᴀᴘʜʏ sᴘᴀᴍ.
-command:
-i) !pornspam <count>
-
-hang: sᴘᴀᴍs ʜᴀɴɢɪɴɢ ᴍᴇssᴀɢᴇ ғᴏʀ  ɢɪᴠᴇɴ  ᴄᴏᴜɴᴛᴇʀ.
-command:
-i) !hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
-
- © @itz_mst_boi
 ʜᴇʟᴘ ʀᴀɪᴅ ᴄᴍᴅs 
 
-
-raid: Activates raid on any individual user for given range.
-command:
-i) !raid <count> <username
-ii) !raid <count> <reply to user>
-
-Delayraid: ᴀᴄᴛɪᴠᴀᴛᴇs ʀᴀɪᴅ  ᴏɴ  ᴀɴʏ  ɪɴᴅɪᴠɪᴅᴜᴀʟ ᴜsᴇʀ  ғᴏʀ ɢɪᴠᴇɴ ʀᴀɴɢᴇ.
-Command:
-i) !delayraid <delay> <count> <Username of User>
-ii) !delayraid <delay> <count> <reply to a User>
-
-replyraid: ᴀᴄᴛɪᴠᴀᴛᴇs ʀᴇᴘʟʏ  ʀᴀɪᴅ  ᴏɴ  ᴛʜᴇ  ᴜsᴇʀ!!
-command:
-i) !replyraid <replying to user>
-ii) !dreplyraid <username>
-
-dreplyraid: ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇs ʀᴇᴘʟʏ  ʀᴀɪᴅ ᴏɴ  ᴛʜᴇ ᴜsᴇʀ!!
-command:
-i) !dreplyraid <replying to user>
-ii) !dreplyraid <username>
-
-
-© @itz_mst_boi
+v) !raid 
+vi) !delayraid
 ʜᴇʟᴘ  ᴇxᴛʀᴀ  ᴄᴍᴅs
 
 Userbot: ᴜsᴇʀʙᴏᴛ ᴄᴍᴅs
